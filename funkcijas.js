@@ -1,0 +1,2 @@
+
+ function nolasitievadito();{console.log}
