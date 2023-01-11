@@ -1,28 +1,26 @@
 <!DOCTYPE html>
+<html>
 <head>
 <p>Labāka spēlīte par God Of War</p>
 </head>
 <body>
    
 <div>
-    Izvēlaties skaitļus, cenšaties uzminēt pareizo skaitli.
+    Izvēlaties skaitļus, cenšaties uzminēt pareizo skaitli no 0-100.
 </div>
 <div>
-<button onclick="nolasitievadito" >Sākt jaunu</button>
+<button onclick="nomainitskaitli()" >Sākt spēli</button>
 <div>
-    <input type="text">
+    <input id="apple" type="text">
 
 </div>
 <div>
-    <button >Pārbaudīt</button>
+    <button onclick="veiktParbaudi()">Pārbaudīt</button>
 </div>
-<div>
+<div id="atbilde">
     Atbilde:
 </div>
 </div>
 </body>
-<div>
-
-
-</div>
-<script src="/funkcijas.js"></script>
+<script src="./funkcijas.js"></script>
+</html>
